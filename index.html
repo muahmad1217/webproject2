@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sliding Puzzle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sliding Puzzle Game</h1>
+  <div class="instructions">
+    <p>To play, simply click on the "cell" blocks in the table to arrange the scrambled numbers in sequential order.</p>
+    <p>Achieve the best play against your rivals with as few moves as possible, in the shortest period of time!</p>
+  </div>
+  <div class="controls">
+    <p>Number of Moves thus far: <span id="moveCount">0</span></p>
+    <p>Time spent in the current game: <span id="timer">0</span> seconds.</p>
+    <button onclick="simpleGame()">Simple Game!</button>
+    <button onclick="newGame()">New Game</button>
+  </div>
+  <div id="board" class="board"></div>
+  <script src="script.js"></script>
+</body>
+</html>

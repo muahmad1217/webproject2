@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* light beige */
+    color: #333;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #4b0082; /* dark indigo */
+  }
+  
+  .instructions {
+    max-width: 600px;
+    margin: 10px auto;
+    background-color: #faebd7; /* antique white */
+    padding: 15px;
+    border: 1px solid #4b0082;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .controls {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #4b0082;
+    background-color: #faebd7;
+    font-size: 14px;
+  }
+  
+  .controls p {
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #f0e68c; /* khaki */
+    border: 1px solid #4b0082;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffd700; /* gold */
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 340px;
+    background-color: #d8bfd8; /* thistle */
+    padding: 5px;
+    border: 2px solid #4b0082;
+  }
+  
+  .tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #dda0dd; /* plum */
+    border: 1px solid #4b0082;
+    height: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tile.empty {
+    background-color: #f5f5dc; /* light beige for empty tile */
+    cursor: default;
+  }
+  
