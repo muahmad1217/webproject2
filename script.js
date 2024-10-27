@@ -5,7 +5,7 @@ let timerInterval;
 
 function initializeBoard() {
   board = Array.from({ length: 15 }, (_, i) => i + 1);
-  board.push(null); // The empty slot
+  board.push(null); 
 }
 
 function shuffleBoard() {
